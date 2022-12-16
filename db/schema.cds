@@ -6,7 +6,7 @@ using { API_BUSINESS_PARTNER as external } from '../srv/external/API_BUSINESS_PA
  key ID : UUID @(Core.Computed : true);
  title : String(100);
  owner : String;
- prio : String(5);
+ prio : String(100);
  descr : String;
  miti : Association to Mitigations;
  impact : Integer;
